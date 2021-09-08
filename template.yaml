@@ -26,4 +26,4 @@ spec:
       name: log number
       action: blam:log-number
       input:
-        number: '{{ json parameters.port }}'
+        number: '"{{ parameters.port }}"'
